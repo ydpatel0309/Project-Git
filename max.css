@@ -10,6 +10,11 @@
     z-index: 100;
     
 }
+.top
+{
+    position: relative;
+    height: 80px;
+}
 .logo
 {
     font-size: 32px;
@@ -46,9 +51,17 @@
 body
 {
     min-height: 100vh;
-    background:url('hotel.jpg')no-repeat;
+    background:url('hotel.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+.bg
+{
+    background-color: rgba(0,0,0,.5);
 }
 .column1
 { 
@@ -57,12 +70,7 @@ body
     padding: 5px;
    
 }
-section{
-    
-    padding: 8rem 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
+
 .row1
 {
     display: flex;
